@@ -2,12 +2,12 @@
 title: "Projecting environmental variables: TESA simulation workshop"
 author: "Daniel Duplisea"
 date: February 2021
-output: html_document
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-devtools::install_github(duplisea/gslea)
+#devtools::install_github(duplisea/gslea)
 library(gslea)
 library(MASS)
 ```
